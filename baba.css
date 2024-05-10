@@ -1,0 +1,114 @@
+
+body{
+  background-image: url(pexels-photo-2551794.jpeg);
+  font-family: "Pacifico", sans-serif;
+  font-weight: 300;
+ }
+
+ .container{
+
+  height: 100vh;
+
+ }
+
+ .card{
+  background: transparent;
+  border: none;
+ }
+
+ .card-header {
+      padding: .5rem 1rem;
+      margin-bottom: 0;
+      background-color: rgba(0,0,0,.03);
+      border-bottom: none;
+  }
+
+  .btn-light:focus {
+      color: #212529;
+      background-color: #0757a7;
+      border-color: #011424;
+      box-shadow: 0 0 0 0.2rem rgba(216,247,219,.5);
+  }
+
+  .form-control{
+
+    height: 50px;
+border: 2px solid #970707;
+border-radius: 6px;
+font-size: 14px;
+  }
+
+  .form-control:focus {
+color: #e70fa6;
+background-color: #d19209;
+border-color: #039be5;
+outline: 0;
+box-shadow: none;
+
+}
+
+.input{
+
+position: relative;
+}
+
+.input i{
+
+    position: absolute;
+top: 16px;
+left: 11px;
+color: #3dcc19;
+}
+
+.input input{
+
+text-indent: 25px;
+}
+
+.card-text{
+
+font-size: 13px;
+margin-left: 6px;
+}
+
+.certificate-text{
+
+font-size: 12px;
+}
+
+ 
+.billing{
+font-size: 11px;
+}  
+
+.super-price{
+
+    top: 0px;
+font-size: 22px;
+}
+
+.super-month{
+
+    font-size: 11px;
+}
+
+
+.line{
+color: #0ebce7;
+}
+
+.free-button{
+
+    background: #bfcc07;
+height: 52px;
+font-size: 15px;
+border-radius: 8px;
+}
+
+
+.payment-card-body{
+
+flex: 1 1 auto;
+padding: 24px 1rem !important;
+
+}

@@ -1,0 +1,175 @@
+/* Reset some default styles */
+body, h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family:"pacifico",cursive;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* Hero section styles */
+#home {
+  text-align: center;
+  padding: 50px 0;
+}
+
+#home h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+#home p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.cta {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff5722;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+/* Menu section styles */
+/* Your existing CSS code */
+
+/* Menu section styles */
+#menu {
+  padding: 50px 0;
+  background-color: #f4f4f4;
+}
+
+.menu-item {
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.menu-item:hover {
+  transform: scale(1.05);
+}
+
+.menu-item img {
+  max-width: 100%;
+  border-radius: 8px 8px 0 0;
+}
+
+.menu-info {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 0 0 8px 8px;
+}
+
+.menu-info h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.menu-info p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ff5722;
+}
+
+/* ... Your existing CSS code ... */
+
+/* About section styles */
+#about {
+  text-align: center;
+  padding: 50px 0;
+}
+
+#about img {
+  max-width: 100%;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+/* Contact section styles */
+#contact {
+  text-align: center;
+  padding: 50px 0;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  background-color: #ff5722;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Add animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+#home img,
+#about img,
+.menu-item img {
+  animation: fadeInUp 1s ease-out;
+}
+
+.cta,
+#menu .menu-item,
+#about h1,
+#about p,
+#contact h2,
+form {
+  animation: fadeInUp 1s ease-out;
+}

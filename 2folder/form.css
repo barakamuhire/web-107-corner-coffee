@@ -1,0 +1,77 @@
+#form-container {
+  font-family: "pacifico",cursive;
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(11, 219, 105, 0.8);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 1s ease-in-out;
+}
+body{
+background-image: url(wallpaperflare.com_wallpaper\ \(8\).jpg);
+}
+
+#customer-form {
+  display: flex;
+  flex-direction: column;
+}
+
+#customer-form label {
+  font-family: "pacifico",cursive;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+#customer-form input[type="text"],
+#customer-form input[type="number"] {
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #7910db;
+  border-radius: 4px;
+  font-family: "pacifico",cursive;
+  font-size: 16px;
+}
+
+#customer-form input[type="text"]:focus,
+#customer-form input[type="number"]:focus {
+  font-family: "pacifico",cursive;
+  outline: none;
+  box-shadow: 0px 0px 2px 1px #5305e6;
+}
+
+#customer-form input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #b40606;
+  border: none;
+  border-radius: 4px;
+  font-family: "pacifico",cursive;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#customer-form input[type="submit"]:hover {
+  background-color: #d2e00e;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

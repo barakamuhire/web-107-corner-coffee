@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Hello, World!</title>
+  <link rel="stylesheet" href="form22.css">
+  <link rel="stylesheet" href="form22.js">
+  <link rel="stylesheet" href="form222.js">
+  <link rel="stylesheet" href="baba.css">
+</head>
+<body>
+  <div id="form-container">
+  <form id="customer-form">
+    <label for="name">User Name:</label><br>
+    <input type="text" id="name" name="name" required><br>
+    <label for="address">Address:</label><br>
+    <input type="text" id="phonenumber" name="phonenumber" placeholder="0780000000" required><br>
+    <input type="text" id="address" name="address" placeholder="Street address, P.O. box, or company name" required><br>
+    <input type="text" id="locality" name="locality" placeholder="City or town" required><br>
+    <input type="text" id="state" name="state" placeholder="State, province, or region" required><br>
+    <input type="text" id="postcode" name="postcode" placeholder="Postal code" required><br>
+    <input type="text" id="country" name="country" placeholder="Country" required><br>
+    <label for="product-name">Product Name:</label><br>
+    <input type="text" id="product-name" name="product-name" required><br>
+    <label for="product-quantity" required>Product Quantity:</label><br>
+    <input type="number" id="product-quantity" name="product-quantity" min="1" required><br>
+    <button><a href="baba.html" required>submit</a></button>
+  </form>
+</div>
+<script>
+  const input = document.getElementById('myInput');
+const button = document.getElementById('myButton');
+
+input.addEventListener('input', (event) => {
+  // Do something when input is entered
+  console.log(`Input value: ${event.target.value}`);
+
+  // Enable the button if input is not empty
+  if (event.target.value.length > 0) {
+    button.removeAttribute('disabled');
+  } else {
+    button.setAttribute('disabled', true);
+  }
+});
+</script>
+
+</body>
+</html>
+
